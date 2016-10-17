@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearListaItens"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="Itens"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listaItens"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="false"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0sp"
+        android:listSelector="@android:color/transparent"
+        android:longClickable="false"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listaItens"
+        android:layout_toLeftOf="@+id/txtTotalCarrinho"
+        android:layout_toStartOf="@+id/txtTotalCarrinho"
+        android:text="Total: "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTotalCarrinho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/listaItens"
+        android:layout_marginRight="16dp"
+        android:text="R$ 00,00"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:onClick="listaItensBtnVoltar"
+        android:text="Voltar"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="115dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:src="@drawable/mobshop" />
+
+</RelativeLayout>

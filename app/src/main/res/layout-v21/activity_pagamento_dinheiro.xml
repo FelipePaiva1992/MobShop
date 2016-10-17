@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearPagamentoDinheiro"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="Pagamento Dinheiro"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtTotalVenda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Carregando..."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/logo"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:onClick="pagamentoDinheiroBtnFinalizar"
+        android:text="Finalizar"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_alignEnd="@+id/logo"
+        android:layout_alignRight="@+id/logo"
+        android:layout_alignTop="@+id/button2"
+        android:layout_marginRight="40dp"
+        android:onClick="pagamentoMaquinaBtnCancelar"
+        android:text="Cancelar"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="115dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:src="@drawable/mobshop" />
+
+</RelativeLayout>

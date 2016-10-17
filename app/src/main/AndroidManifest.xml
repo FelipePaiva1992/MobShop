@@ -1,0 +1,76 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.thesource.mobshop">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/icon_app"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="br.com.thesource.mobshop.view.InsercaoCodVendedor"
+    		android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.InsercaoCPFCliente"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.CadastroDeCliente"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.CadastroDeClienteEndereco"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.CadastroDeClienteDados"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.CadastroDeClienteContato"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.InicioVenda"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.TelaVenda"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.InserirItem"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.ListaItens"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.PagamentoMaquina"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.PagamentoDinheiro"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.PagamentoLeitorChip"
+    		android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="br.com.thesource.mobshop.view.PagamentoLeitorTarja"
+    		android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

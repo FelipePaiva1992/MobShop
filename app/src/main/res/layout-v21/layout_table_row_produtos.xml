@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E0E0E0">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Ipohne 5C" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="1999,99" />
+
+    <ImageView
+        android:id="@+id/imageViewEnderecoOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape"
+        android:gravity="center_vertical|center_horizontal"
+        android:src="@android:drawable/ic_delete" />
+
+</merge>

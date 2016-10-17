@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobShop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_insercao_cod_vendedor">InsercaoCodVendedor</string>
+    <string name="title_activity_insercao_cpfcliente">InsercaoCPFCliente</string>
+    <string name="title_activity_cadastro_de_cliente">CadastroDeCliente</string>
+    <string name="title_activity_inicio_venda">InicioVenda</string>
+    <string name="title_activity_tela_venda">TelaVenda</string>
+    <string name="title_activity_inserir_item">InserirItem</string>
+    <string name="title_activity_lista_itens">ListaItens</string>
+    <string name="title_activity_pagamento_maquina">PagamentoMaquina</string>
+
+</resources>

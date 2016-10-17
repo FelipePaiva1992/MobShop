@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearTelaVenda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="Nova Venda"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="N° Conta: "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textViewCodVenda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="845984654"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="Cliente: "
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textViewNmCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="Felipe"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logo"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/btn_magenta"
+        android:onClick="telaVendaBtnNovoItem"
+        android:text="Inserir Item"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/logo"
+        android:layout_alignRight="@+id/logo"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn_magenta"
+        android:onClick="telaVendaBtnItens"
+        android:text="Carrinho de Compras"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logo"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/btn_magenta"
+        android:onClick="telaVendaBtnPagar"
+        android:text="Pagar"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/logo"
+        android:layout_alignRight="@+id/logo"
+        android:layout_alignTop="@+id/button2"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn_magenta"
+        android:onClick="telaVendaBtnCancelar"
+        android:text="Cancelar"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="115dp"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:src="@drawable/mobshop" />
+
+</RelativeLayout>

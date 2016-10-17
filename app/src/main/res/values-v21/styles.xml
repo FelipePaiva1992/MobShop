@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="android:colorButtonNormal">#F56F6C</item>
+        <item name="android:colorPrimaryDark">#114F5A</item>
+        <item name="android:colorPrimary">#ff136773</item>
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+</resources>
