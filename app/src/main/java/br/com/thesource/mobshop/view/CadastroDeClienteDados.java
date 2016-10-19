@@ -32,7 +32,6 @@ public class CadastroDeClienteDados extends Activity {
         	dadosOk = false;
             editTextNomeCliente = (EditText)findViewById(R.id.editTextNomeCliente);
             editTextCPFCliente = (EditText)findViewById(R.id.editTextCPFCliente);
-            editTextCPFCliente = (EditText)findViewById(R.id.editTextEnderecoCliente);
             editTextNascimentoCliente = (EditText)findViewById(R.id.editTextNascimentoCliente);
         }
 

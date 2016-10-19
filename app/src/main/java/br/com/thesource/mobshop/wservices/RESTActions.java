@@ -6,8 +6,9 @@ class RESTActions {
 	//private static final String HOST = "http://192.168.43.179:8200/WSMobShop/"; //JBOSS
 	//private static final String HOST = "http://192.168.43.179:8080/WebServiceMS/"; //TOMCAT
 	//private static final String HOST = "http://192.168.1.36:8200/WSMobShop/";
-	private static final String HOST = "http://thesource.com.br/WebServiceMS/"; // TOMCAT THE SOURCE
+	//private static final String HOST = "http://thesource.com.br/WebServiceMS/"; // TOMCAT THE SOURCE
     //private static final String HOST = "http://192.168.1.36:8080/WebServiceMS/"; // TOMCAT LOCAL
+    private static final String HOST = "http://54.191.197.37:9080/WebServiceMS/"; // TOMCAT CODE4U
 	
 	public static final String LOGAR_VENDEDOR = HOST+"rest/endpointVendedor/logarVendedor";
 
