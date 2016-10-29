@@ -9,50 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c454a0e0-ca60-4da4-b325-a3916a3a8978" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/br/com/thesource/mobshop/ApplicationTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/br/com/code4u/mobshop/ApplicationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/adapter/ListaProdutosAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/adapter/ListaProdutosAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/adapter/model/ListaProduto.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/adapter/model/ListaProduto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/dao/PersistenceHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/dao/PersistenceHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/dao/SessaoDao.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/dao/SessaoDao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/Cliente.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/Cliente.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/Produto.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/Produto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/ProdutoCapacidade.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/ProdutoCapacidade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/ProdutoCor.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/ProdutoCor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/Sessao.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/Sessao.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/StatusAdyen.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/StatusAdyen.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/TipoPagamento.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/TipoPagamento.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/Venda.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/Venda.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/VendaItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/VendaItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/model/Vendedor.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/model/Vendedor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/util/AlterAllFontsInActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/util/AlterAllFontsInActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/util/ConnectionUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/util/ConnectionUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/util/LogUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/util/LogUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/util/Mask.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/util/Mask.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/util/SessionStorageUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/util/SessionStorageUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/CadastroDeCliente.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/CadastroDeCliente.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/CadastroDeClienteContato.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/CadastroDeClienteContato.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/CadastroDeClienteDados.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/CadastroDeClienteDados.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/CadastroDeClienteEndereco.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/CadastroDeClienteEndereco.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/InicioVenda.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/InicioVenda.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/InsercaoCPFCliente.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/InsercaoCPFCliente.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/InsercaoCodVendedor.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/InsercaoCodVendedor.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/InserirItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/InserirItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/ListaItens.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/ListaItens.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/PagamentoDinheiro.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/PagamentoDinheiro.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/PagamentoLeitorChip.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/PagamentoLeitorChip.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/PagamentoLeitorTarja.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/PagamentoLeitorTarja.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/PagamentoMaquina.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/PagamentoMaquina.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/view/TelaVenda.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/view/TelaVenda.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/wservices/ConexaoWSRest.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/wservices/ConexaoWSRest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/wservices/RESTActions.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/wservices/RESTActions.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/wservices/RESTConnection.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/wservices/RESTConnection.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/zxing/IntentIntegrator.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/zxing/IntentIntegrator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/br/com/thesource/mobshop/zxing/IntentResult.java" afterPath="$PROJECT_DIR$/app/src/main/java/br/com/code4u/mobshop/zxing/IntentResult.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-    </list>
+    <list default="true" id="c454a0e0-ca60-4da4-b325-a3916a3a8978" name="Default" comment="" />
     <ignored path="MobShop.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -136,6 +93,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../../Android/chave/code4u.jks" />
+    <option name="KEY_ALIAS" value="code4u" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -1969,6 +1931,9 @@
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="device.picker.selection" value="308eb409" />
     <property name="SearchEverywhereHistoryKey" value="ac&#9;FILE&#9;file:///Users/felipepaiva/Documents/Desenvolvimento/Repositorios/git/MobShop/app/src/main/res/layout-v21/activity_cadastro_de_cliente_endereco.xml" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.Flavors" value="" />
+    <property name="ExportApk.BuildType" value="release" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
