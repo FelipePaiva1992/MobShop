@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.thesource.mobshop">
+    package="br.com.code4u.mobshop">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
@@ -12,7 +12,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="br.com.thesource.mobshop.view.InsercaoCodVendedor"
+            android:name="br.com.code4u.mobshop.view.InsercaoCodVendedor"
     		android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,55 +20,55 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.InsercaoCPFCliente"
+            android:name="br.com.code4u.mobshop.view.InsercaoCPFCliente"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.CadastroDeCliente"
+            android:name="br.com.code4u.mobshop.view.CadastroDeCliente"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.CadastroDeClienteEndereco"
+            android:name="br.com.code4u.mobshop.view.CadastroDeClienteEndereco"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.CadastroDeClienteDados"
+            android:name="br.com.code4u.mobshop.view.CadastroDeClienteDados"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.CadastroDeClienteContato"
+            android:name="br.com.code4u.mobshop.view.CadastroDeClienteContato"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.InicioVenda"
+            android:name="br.com.code4u.mobshop.view.InicioVenda"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.TelaVenda"
+            android:name="br.com.code4u.mobshop.view.TelaVenda"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.InserirItem"
+            android:name="br.com.code4u.mobshop.view.InserirItem"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.ListaItens"
+            android:name="br.com.code4u.mobshop.view.ListaItens"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.PagamentoMaquina"
+            android:name="br.com.code4u.mobshop.view.PagamentoMaquina"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.PagamentoDinheiro"
+            android:name="br.com.code4u.mobshop.view.PagamentoDinheiro"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.PagamentoLeitorChip"
+            android:name="br.com.code4u.mobshop.view.PagamentoLeitorChip"
     		android:screenOrientation="portrait">
         </activity>
         <activity
-            android:name="br.com.thesource.mobshop.view.PagamentoLeitorTarja"
+            android:name="br.com.code4u.mobshop.view.PagamentoLeitorTarja"
     		android:screenOrientation="portrait">
         </activity>
     </application>

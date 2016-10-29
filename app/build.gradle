@@ -5,7 +5,7 @@ android {
     buildToolsVersion '24.0.3'
 
     defaultConfig {
-        applicationId "br.com.thesource.mobshop"
+        applicationId "br.com.code4u.mobshop"
         minSdkVersion 16
         targetSdkVersion 21
         versionCode 1
